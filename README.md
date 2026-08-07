@@ -41,12 +41,7 @@ without the plumbing.
 
 ### Real UCITS ETF data
 
-Pulls Irish-domiciled S&P 500 UCITS ETFs (CSPX.L,
-VUAA.L, SPY5.L) and the S&P 500 total-return index through yfinance, then plots
-growth of 100, rolling one-year tracking difference, and annualised tracking
-difference and tracking error. Yahoo only carries market prices, so a true
-premium/discount isn't available from it. Rather than fake one from prices, the
-tab takes an issuer NAV history CSV (columns `date` and `nav`) and computes the
+Pulls Irish-domiciled S&P 500 UCITS ETFs (CSPX.L, VUAA.L, SPY5.L) and the S&P 500 total-return index through yfinance, then plots growth of 100, rolling one-year tracking difference, and annualised tracking difference and tracking error. Yahoo only carries market prices, so a true premium/discount isn't available from it. Rather than fake one from prices, the tab takes an issuer NAV history CSV (columns `date` and `nav`) and computes the
 premium properly against official NAVs.
 
 ### Explainer
