@@ -1,5 +1,7 @@
 # ETF creation/redemption and premium/discount simulator
 
+> Live app: https://etf-arb-simulator.streamlit.app
+
 A Streamlit app I built to make one piece of market plumbing visible: the
 Authorised Participant (AP) arbitrage that keeps an ETF's share price close to
 the value of what the fund actually holds.
